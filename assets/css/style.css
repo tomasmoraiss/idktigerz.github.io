@@ -764,6 +764,19 @@ a:hover {
   font-size: 3rem;
 }
 
+.hero .hero-title-dark-chamber {
+  color: #fff;
+  font-weight: 600;
+  font-size: 3rem;
+  font-family: 'HelpMeFont', Arial, Helvetica, sans-serif;
+}
+
+@font-face {
+  font-family: 'HelpMeFont';
+  src: url('assets/fonts/fontie-package/Help Me.woff2') format('woff2')
+       url('assets/fonts/fontie-package/Help Me.woff') format('woff');
+}
+
 @media (min-width: 768px) {
   .hero .hero-title {
     font-size: 4.5rem;
